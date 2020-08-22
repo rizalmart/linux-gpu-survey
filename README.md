@@ -17,7 +17,7 @@ For Client
 
 INSTALLATION
 1. Upload the php scripts to a web server
-2. Create database and import the dump file
+2. Create database and import the dump file named tbl_gpu_log.sql
 3. Edit the config.php for database settings
 4. Edit the gpu-survey.sh for server settings
 
