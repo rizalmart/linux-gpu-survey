@@ -22,7 +22,7 @@ INSTALLATION
 4. Edit the gpu-survey.sh for server settings
 
 TO CONDUCT SURVEY
-1. Make gpu-survey.sh script executable but typing this command on terminal 
+1. Make gpu-survey.sh script executable but typing this command on terminal
 chmod +x ./gpu-survey.sh
 
 2. Run the gpu-survey.sh script on terminal
