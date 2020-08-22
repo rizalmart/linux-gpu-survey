@@ -7,6 +7,7 @@ This tool consists of two parts
 2. Client - scans GPU vendor id and device id; and hash of machine-id then upload the information anonymously to web server. It does not collect any personal data, only the GPU vendor and device id; as well as the machine-id hash.
 
 REQUIREMENTS
+
 For Server
 1. Web server with PHP and MySQL (latest version)
 
