@@ -12,6 +12,9 @@ if [ -e /var/lib/dbus/machine-id ]; then
  mpath="/var/lib/dbus/machine-id"
 elif [ -e /etc/machine-id ]; then
  mpath="/etc/machine-id"
+else
+ echo "machine-id not found. Unable to conduct survey"
+ exit
 fi
 
 echo "Getting machine-id hash..." 
