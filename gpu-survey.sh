@@ -31,7 +31,9 @@ do
     
     wget -q -O - "$xURL"
     
-    echo $?
+    if [ $? -eq 0 ]; then
+     echo "Submission complete"
+    fi
         
     sleep 1
   
